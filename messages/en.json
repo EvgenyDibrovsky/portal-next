@@ -1,0 +1,229 @@
+{
+   "About": {
+    "title": "About us en"
+  },
+  "header": {
+    "logo": {
+      "logo_text_1": "Catalog",
+      "logo_text_2": "of Real Estate"
+    }
+  },
+  "footer": {
+    "reserved": "© 2023 All rights reserved."
+  },
+  "nav_menu": {
+    "nav_item_1": "Home",
+    "nav_item_2": "Catalog",
+    "nav_item_3": "Contacts"
+  },
+  "pages": {
+    "home": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Home",
+      "sub_title": "Subtitle"
+    },
+    "about": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "About Us",
+      "sub_title": "Subtitle"
+    },
+    "catalog": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Company Catalog",
+      "sub_title": "Subtitle"
+    },
+    "contacts": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Contacts",
+      "sub_title": "Subtitle"
+    },
+    "regulations": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Regulations",
+      "sub_title": "Subtitle"
+    },
+    "projects": {
+      "meta_title": "Projects",
+      "meta_description": "Meta Description",
+      "title": "Projects",
+      "sub_title": "Subtitle"
+    },
+    "reviews": {
+      "meta_title": "Customer reviews",
+      "meta_description": "Meta Description",
+      "title": "Customer reviews",
+      "sub_title": "Subtitle"
+    },
+    "not_found": {
+      "meta_title": "Page Not Found",
+      "meta_description": "404",
+      "title": "Page Not Found",
+      "sub_title": "404"
+    }
+  },
+  "pages_category": {
+    "developers": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Developers",
+      "sub_title": "Subtitle",
+      "page_item": {
+        "nip": "Nip",
+        "www": "Site",
+        "address": "Address",
+        "tel": "Tel",
+        "email": "Email",
+        "about": "About us",
+        "projects": "Projects",
+        "reviews": "Reviews",
+        "contact_form": "Ask a question"
+      }
+    },
+    "intermediaries": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Intermediaries",
+      "sub_title": "Subtitle"
+    },
+    "investments": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Investments",
+      "sub_title": "Subtitle"
+    },
+    "houses": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Houses",
+      "sub_title": "Subtitle"
+    },
+    "apartments": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Apartments",
+      "sub_title": "Subtitle"
+    },
+    "plots": {
+      "meta_title": "Meta Title",
+      "meta_description": "Meta Description",
+      "title": "Plots",
+      "sub_title": "Subtitle"
+    }
+  },
+  "forms": {
+    "contact_form": {
+      "name": "Name",
+      "enter_name": "Enter Name",
+      "email": "Email",
+      "enter_email": "Enter Email",
+      "message_subject": "Message Subject",
+      "enter_message_subject": "Enter Message Subject",
+      "message": "Message",
+      "enter_message": "Enter Message",
+      "send": "Send Message",
+      "accept-form": "I agree with the terms set forth in the regulations."
+    },
+    "select_forms": {
+      "authorization": "Authorization",
+      "registration": "Registration",
+      "reset_password": "Reset Password"
+    },
+    "authorization": {
+      "email": "Email",
+      "enter_email": "Enter Email",
+      "password": "Password",
+      "enter_password": "Enter Password",
+      "btn_authorization": "Log In",
+      "btn_password_recovery": "Recover Password"
+    },
+    "registration": {
+      "login": "Login",
+      "enter_login": "Enter Login",
+      "email": "Email",
+      "enter_email": "Enter Email",
+      "password": "Password",
+      "enter_password": "Enter Password",
+      "enter_password-repeat": "Enter Password Again",
+      "btn_registration": "Register",
+      "regulations_checkbox": "I agree with the terms outlined in the regulations",
+      "regulations_page": "Regulations"
+    },
+    "password_recovery": {
+      "email": "Email for password recovery",
+      "enter_email": "Enter email for password recovery",
+      "btn_password_recovery": "Recover Password"
+    }
+  },
+  "social_links": {
+    "github": "Link to github",
+    "telegram": "Link to telegram",
+    "facebook": "Link to facebook",
+    "linkedin": "Link to linkedin"
+  },
+  "select_language": {
+    "english": "English",
+    "polish": "Polska",
+    "ukrainian": "Українська",
+    "russian": "Руссский"
+  },
+  "select_language_abbreviated": {
+    "english": "EN",
+    "poland": "PL",
+    "ukraine": "UA",
+    "russian": "RU"
+  },
+  "bottons": {
+    "write_message": "Write a Message",
+    "back_to_home": "Back to Home",
+    "contact_form": "Contacts",
+    "download_resume": "Download resume (.pdf)",
+    "nav_menu": "Nav menu",
+    "theme_switcher": "Theme switcher"
+  },
+  "cookies": {
+    "title": "The site uses cookies",
+    "text": "We use cookies and Local Storage to enhance your user experience, as well as for services like language selection and color theme switching. The site also uses Google Analytics for visitor statistics gathering. This site is a portfolio and does not require registration. A contact form is available for you to get in touch with me, where you can leave your name, email, and message text. By continuing to use the site, you agree to our use of cookies and Local Storage. If you disagree, please leave the site. Thank you for your understanding!",
+    "btn_accept": "I agree",
+    "btn_no_accept": "I don't agree"
+  },
+  "recaptcha": {
+    "text_1": "This site is protected by reCAPTCHA and the ",
+    "privacy_policy": "Privacy Policy ",
+    "text_2": "and ",
+    "terms_of_service": "Terms of Service ",
+    "text_3": "apply."
+  },
+  "developers_slider": {
+    "btn_offer": "Offer",
+    "btn_site": "Company website"
+  },
+  "hero_filter": {
+    "title": "Your partner in real estate search",
+    "select_country": "Select country",
+    "select_region": "All regions",
+    "select_city": "All cities",
+    "btn_search": "Search",
+    "checkbox_1": "Developers",
+    "checkbox_2": "Investments",
+    "checkbox_3": "Brokers",
+    "checkbox_4": "Houses",
+    "checkbox_5": "Apartments",
+    "checkbox_6": "Plots"
+  },
+  "admin": {
+    "page": {
+      "title": "Hello, admin"
+    },
+    "forms": {
+      "authorization": {
+        "password_enter": "Enter password",
+        "btn_auth": "Login"
+      }
+    }
+  }
+}
