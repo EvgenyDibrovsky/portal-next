@@ -1,12 +1,11 @@
 import Titles from "../components/PageSettings/Titles";
-import Section from "../components/PageSettings/Section";
 
 export default function Catalog() {
   return (
-    <Section>
+    <section className="py-[2.5rem]">
       <div className="container">
         <Titles title="Каталог" subTitle="Подзаголовок" />
       </div>
-    </Section>
+    </section>
   );
 }

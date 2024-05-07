@@ -1,13 +1,9 @@
 "use client";
 
 import { BsBox } from "react-icons/bs";
-import { usePathname } from "next/navigation";
 import { Link } from "../../../../../navigation";
 
 export default function Category() {
-  const pathname = usePathname();
-  const linkClassName = (href) => `text-center text-[1rem] ${pathname === href ? "text-sky-500 dark:text-yellow-500" : "text-black dark:text-white"}`;
-
   return (
     <section className="py-[4rem]">
       <div className="container">

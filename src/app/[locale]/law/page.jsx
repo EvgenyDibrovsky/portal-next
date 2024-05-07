@@ -1,16 +1,15 @@
-// import Titles from "../components/PageSettings/Titles";
-import Section from "../components/PageSettings/Section";
+import Titles from "../components/PageSettings/Titles";
 // import { useTranslations } from "next-intl";
 
 export default function Law() {
   // const t = useTranslations("pages.about");
 
   return (
-    <Section>
+    <section className="h-[100dvh] py-[2.5rem]">
       <div className="container">
         {/* <Titles title={t("title")} subTitle={t("sub_title")} /> */}
-        <h1>Страница Юридическиз услуг</h1>
+        <Titles title="Юридические услуги" subTitle="Подзаголовок" />;
       </div>
-    </Section>
+    </section>
   );
 }

@@ -7,7 +7,7 @@ import { NextIntlClientProvider, useMessages } from "next-intl";
 const MainHeader = () => {
   const messages = useMessages();
   return (
-    <div className="fixed top-0 left-0 z-50 w-full flex items-center h-[3.5rem] shadow-md dark:shadow-yellow-500 group bg-bgHeader dark:bg-darkBgHeader ">
+    <header className="fixed top-0 left-0 z-50 w-full flex items-center h-[3.5rem] shadow-md bg-white dark:bg-slate-800 ">
       <div className="container">
         <div className="flex justify-between items-center">
           <Logo />
@@ -22,7 +22,7 @@ const MainHeader = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 export default MainHeader;
