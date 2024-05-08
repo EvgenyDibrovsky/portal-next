@@ -4,7 +4,7 @@ import LinksFooter from "./LinksFooter";
 const Footer = () => {
   return (
     <footer className="w-full border-t-2 border-sky-200 z-50 ">
-      <div className="bg-white py-8 flex justify-between items-center bg-gradient-to-r from-slate-900 from-10% via-slate-700 via-30% to-slate-900 to-80%">
+      <div className="bg-white py-8 flex justify-between items-center dark:bg-slate-800">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="flex flex-col justify-center md:justify-start">

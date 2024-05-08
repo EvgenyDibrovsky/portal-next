@@ -1,6 +1,5 @@
 // import { useTranslations } from "next-intl";
 import Titles from "../components/PageSettings/Titles";
-
 export default function Work() {
   // const t = useTranslations("pages.about");
 
@@ -9,6 +8,7 @@ export default function Work() {
       <div className="container">
         {/* <Titles title={t("title")} subTitle={t("sub_title")} /> */}
         <Titles title="Работа" subTitle="Подзаголовок" />
+        <div className="grid grid-cols-3 "></div>
       </div>
     </section>
   );

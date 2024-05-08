@@ -1,6 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  li,
+  a {
+    @apply text-black dark:text-white;
+  }
+}
 @layer components {
+  .swiper-blog .swiper-button-prev::after,
+  .swiper-blog .swiper-button-next::after {
+    @apply text-[1.2rem];
+  }
+
+  .swiper-blog .swiper-button-prev {
+    @apply text-white bg-sky-600 p-[1rem] left-0;
+  }
+
+  .swiper-blog .swiper-button-next {
+    @apply text-white bg-sky-600 p-[1rem] right-0;
+  }
+  .swiper-blog .swiper-pagination-bullet {
+    @apply h-5 w-5 duration-300 hover:bg-sky-500;
+  }
+  .swiper-blog .swiper-pagination-bullet-active {
+    @apply bg-sky-600;
+  }
 }
