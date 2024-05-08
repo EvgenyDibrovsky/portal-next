@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section className="py-[2.5rem]">
       <div className="container">
-        <Titles title="О нас" subTitle="Подзаголовок" />;
+        <Titles title="О нас" subTitle="Подзаголовок" />
       </div>
     </section>
   );

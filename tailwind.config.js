@@ -10,10 +10,10 @@ module.exports = {
       lg: "1024px", // large devices, laptops
       xl: "1280px", // extra large devices, large laptops, desktops
       xxl: "1440px", // xxl devices, large desktops
-      "2xl": "1920px", // Full HD screens
-      "3xl": "2560px", // QHD screens
-      "4xl": "3840px", // 4K screens
-      "5xl": "100%", // covers everything above
+      // "2xl": "1920px", // Full HD screens
+      // "3xl": "2560px", // QHD screens
+      // "4xl": "3840px", // 4K screens
+      // "5xl": "100%", // covers everything above
     },
     container: {
       center: true,
@@ -22,10 +22,10 @@ module.exports = {
         lg: "20px", // large devices, laptops
         xl: "25px", // extra large devices, large laptops, desktops
         xxl: "30px", // xxl devices, large desktops
-        "2xl": "35px", // Full HD screens
-        "3xl": "40px", // QHD screens
-        "4xl": "45px", // 4K screens
-        "5xl": "50px", // covers everything above
+        // "2xl": "35px", // Full HD screens
+        // "3xl": "40px", // QHD screens
+        // "4xl": "45px", // 4K screens
+        // "5xl": "50px", // covers everything above
       },
     },
     extend: {

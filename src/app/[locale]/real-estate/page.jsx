@@ -8,7 +8,7 @@ export default function RealEstate() {
     <section className="h-[100dvh] py-[2.5rem]">
       <div className="container">
         {/* <Titles title={t("title")} subTitle={t("sub_title")} /> */}
-        <Titles title="Недвижимость" subTitle="Подзаголовок" />;{" "}
+        <Titles title="Недвижимость" subTitle="Подзаголовок" />
       </div>
     </section>
   );

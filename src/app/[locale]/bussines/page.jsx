@@ -8,7 +8,7 @@ export default function bussines() {
     <section className="py-[2.5rem]">
       <div className="container">
         {/* <Titles title={t("title")} subTitle={t("sub_title")} /> */}
-        <Titles title="Бизнес" subTitle="Подзаголовок" />;{" "}
+        <Titles title="Бизнес" subTitle="Подзаголовок" />
       </div>
     </section>
   );
