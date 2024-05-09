@@ -1,9 +1,9 @@
-import { Poppins } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-
-const poppins = Poppins({
+import Header from "./_components/Header/Header";
+import Footer from "./_components/Footer/Footer";
+// import { ThemeProvider } from "@material-tailwind/react";
+const montserrat = Montserrat({
   display: "swap",
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
@@ -18,11 +18,13 @@ export default function LocaleLayout({ children, params }) {
   const { locale } = params;
   return (
     <html lang={locale}>
-      <body className={`${poppins.className} bg-white dark:bg-slate-900 text-black dark:text-white`}>
+      {/* <ThemeProvider> */}
+      <body className={`${montserrat.className} bg-white dark:bg-slate-900 text-black dark:text-white`}>
         <Header />
         <main className="pt-[3.5rem]">{children}</main>
         <Footer />
       </body>
+      {/* </ThemeProvider> */}
     </html>
   );
 }

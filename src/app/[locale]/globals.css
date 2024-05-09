@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   h1,
   h2,
@@ -11,6 +12,11 @@
   li,
   a {
     @apply text-black dark:text-white;
+  }
+
+  .not-found h1,
+  .not-found h2 {
+    @apply text-white;
   }
 }
 @layer components {

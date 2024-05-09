@@ -7,7 +7,7 @@ import Error from "next/error";
 export default function NotFound() {
   return (
     <html lang="en">
-      <body>
+      <body className="not-found">
         <section>
           <Error statusCode={404} />
           <Link href="/" className="flex justify-center group text-black">
