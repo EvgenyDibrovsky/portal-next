@@ -1,24 +1,23 @@
 // import { useTranslations } from "next-intl";
-import HeroSwiper from "./_components/Sections/FrontPage/HeroSwiper";
-import Category from "./_components/Sections/FrontPage/Category";
-import Work from "./_components/Sections/FrontPage/Work";
+// import HeroSwiper from "./_components/Sections/FrontPage/HeroSwiper";
+import Hero from "./_components/Sections/FrontPage/Hero";
+// import Category from "./_components/MainCategory/MainCategoryList";
+import HomePageWorkList from "./_components/Work/WorkListHomePage/HomePageWorkList";
 import AdsBlock from "./_components/Sections/FrontPage/AdsBlock";
-import RealEstate from "./_components/Sections/FrontPage/RealEstate";
-import Blog from "./_components/Sections/FrontPage/Blog";
-import Card1 from "./_components/Card/Card-1";
-import Card2 from "./_components/Card/Card-2";
+import HomePageCardsRealEstateList from "./_components/RealEstate/Cards/HomePageCardsRealEstate/HomePageCardsRealEstateList";
+import HomePageCardsBlogList from "./_components/Blog/Cards/HomePageCardsBlog/HomePageCardsBlogList";
+
 export default function Home() {
   // const t = useTranslations();
   return (
     <>
-      <HeroSwiper />
-      <Category />
-      <Work />
-      <RealEstate />
-      <Blog />
+      {/* <HeroSwiper /> */}
+      <Hero />
+      {/* <Category /> */}
+      <HomePageWorkList />
+      <HomePageCardsRealEstateList />
+      <HomePageCardsBlogList />
       <AdsBlock />
-      <Card1 />
-      <Card2 />
     </>
   );
 }
