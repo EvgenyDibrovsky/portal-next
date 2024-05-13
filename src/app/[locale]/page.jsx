@@ -7,6 +7,7 @@ import AdsBlock from "./_components/Sections/FrontPage/AdsBlock";
 import HomePageCardsRealEstateList from "./_components/RealEstate/Cards/HomePageCardsRealEstate/HomePageCardsRealEstateList";
 import HomePageCardsBlogList from "./_components/Blog/Cards/HomePageCardsBlog/HomePageCardsBlogList";
 import HomePageAbout from "./_components/About/HomePageAbout";
+import HomePageBussinesList from "./_components/Bussines/HomePageBussinesList/HomePageBussinesList";
 export default function Home() {
   // const t = useTranslations();
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <Category /> */}
       <HomePageAbout />
       <HomePageWorkList />
+      <HomePageBussinesList />
       <HomePageCardsRealEstateList />
       <HomePageCardsBlogList />
       <AdsBlock />

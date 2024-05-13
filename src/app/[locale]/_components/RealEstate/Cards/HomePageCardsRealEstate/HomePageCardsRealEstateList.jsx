@@ -27,7 +27,7 @@ export default function HomePageCardsRealEstateList() {
               </div>
 
               <Link
-                href="/work"
+                href="/real-estate"
                 className="w-full border border-sky-600  duration-300 hover:bg-sky-600 p-[1rem] flex justify-center text-sky-600 hover:text-white text-[1.3rem] items-center gap-8 hover:shadow-md group"
               >
                 Смотреть все агентства
