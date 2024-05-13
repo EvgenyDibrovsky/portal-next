@@ -8,6 +8,7 @@ import HomePageCardsRealEstateList from "./_components/RealEstate/Cards/HomePage
 import HomePageCardsBlogList from "./_components/Blog/Cards/HomePageCardsBlog/HomePageCardsBlogList";
 import HomePageAbout from "./_components/About/HomePageAbout";
 import HomePageBussinesList from "./_components/Bussines/HomePageBussinesList/HomePageBussinesList";
+import HomePageStudyList from "./_components/Study/HomePageStudyList/HomePageStudyList";
 export default function Home() {
   // const t = useTranslations();
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <HomePageWorkList />
       <HomePageBussinesList />
       <HomePageCardsRealEstateList />
+      <HomePageStudyList />
+
       <HomePageCardsBlogList />
       <AdsBlock />
     </>

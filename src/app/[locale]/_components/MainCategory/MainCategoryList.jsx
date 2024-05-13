@@ -5,7 +5,7 @@ import { Link } from "../../../../navigation";
 
 export default function Category() {
   return (
-    <ul className="grid grid-cols-7 bg-white shadow-md">
+    <ul className="grid grid-cols-8 bg-white shadow-md">
       <li className="border-r duration-300 hover:bg-sky-600 group">
         <Link href="/work" className="flex justify-center items-center flex-col py-[2rem] px-[1rem] duration-300 group-hover:text-white">
           <BsBox className="mx-auto w-[2rem] h-[2rem] mb-4" />
@@ -36,13 +36,19 @@ export default function Category() {
       </li>
       <li className="border-r duration-300 hover:bg-sky-600 group">
         <Link href="/study" className="flex justify-center items-center flex-col py-[2rem] px-[1rem] duration-300 group-hover:text-white">
-          <BsBox className="mx-auto w-[2rem] h-[2rem] mb-4" /> Учеба
+          <BsBox className="mx-auto w-[2rem] h-[2rem] mb-4" /> Образование
         </Link>
       </li>
 
       <li className="duration-300 hover:bg-sky-600 group">
         <Link href="/blogs" className="flex justify-center items-center flex-col py-[2rem] px-[1rem] duration-300 group-hover:text-white">
           <BsBox className="mx-auto w-[2rem] h-[2rem] mb-4" /> Блоги
+        </Link>
+      </li>
+
+      <li className="duration-300 hover:bg-sky-600 group">
+        <Link href="/news" className="flex justify-center items-center flex-col py-[2rem] px-[1rem] duration-300 group-hover:text-white">
+          <BsBox className="mx-auto w-[2rem] h-[2rem] mb-4" /> Новости
         </Link>
       </li>
     </ul>

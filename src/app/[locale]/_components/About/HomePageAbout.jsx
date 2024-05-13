@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Link } from "../../../../navigation";
+import { BsArrowRight } from "react-icons/bs";
 
 export default function HomePageAbout() {
   return (
@@ -16,7 +18,7 @@ export default function HomePageAbout() {
                 О нас
               </h2>
 
-              <p className="mb-[3rem]">
+              <p className="mb-[1rem]">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi numquam possimus aspernatur, voluptatum quis cum vitae, saepe pariatur amet eveniet expedita eaque magni. Sint voluptates
                 earum animi, laborum quasi ducimus.
                 <br />
@@ -31,6 +33,10 @@ export default function HomePageAbout() {
                 <li className="">Позиция 5</li>
                 <li className="">Позиция 6</li>
               </ul>
+              <Link href="/about" className="inline-flex mt-[1rem] ml-auto items-center gap-4 group">
+                Больше о нас
+                <BsArrowRight className="duration-300 group-hover:translate-x-1 group-hover:text-sky-500 dark:group-hover:text-sky-400" />
+              </Link>
             </div>
           </div>
         </div>
