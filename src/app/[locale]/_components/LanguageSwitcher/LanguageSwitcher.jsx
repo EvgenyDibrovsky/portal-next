@@ -39,7 +39,11 @@ const LanguageSwitcher = () => {
     <div className="flex items-center gap-1 text-[1rem]">
       <IoLanguageOutline className="text-[1.2rem] text-sky-600 dark:text-white" />
 
-      <select value={selectedLanguage} onChange={handleChange} className="text-black px-[0.3rem] dark:text-white bg-transparent cursor-pointer focus:outline-0">
+      <select
+        value={selectedLanguage}
+        onChange={handleChange}
+        className="appearance-none pl-[1rem] pr-[2.3rem]  w-full focus:outline-none cursor-pointer bg-[url('/images/arrow-select.svg')] bg-no-repeat bg-[position:right_0.5rem_center] bg-[length:1rem_1rem] bg-white"
+      >
         {Object.entries(languages).map(([key, label]) => (
           <option key={key} value={key} className="bg-white dark:bg-black text-black dark:text-white">
             {t(label)}

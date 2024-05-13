@@ -40,7 +40,7 @@ export default function Category() {
         </Link>
       </li>
 
-      <li className="duration-300 hover:bg-sky-600 group">
+      <li className="border-r duration-300 hover:bg-sky-600 group">
         <Link href="/blogs" className="flex justify-center items-center flex-col py-[2rem] px-[1rem] duration-300 group-hover:text-white">
           <BsBox className="mx-auto w-[2rem] h-[2rem] mb-4" /> Блоги
         </Link>

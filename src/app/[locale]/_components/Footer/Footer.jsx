@@ -3,7 +3,7 @@ import Logo from "../Logo/LogoFooter";
 import LinksFooter from "./LinksFooter";
 const Footer = () => {
   return (
-    <footer className="w-full border-t-2 border-sky-200 z-50 ">
+    <footer className="w-full border-t border-sky-600 z-50 ">
       <div className="bg-white py-8 flex justify-between items-center dark:bg-slate-800">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

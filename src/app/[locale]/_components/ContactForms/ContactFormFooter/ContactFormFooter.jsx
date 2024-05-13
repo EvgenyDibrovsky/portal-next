@@ -6,7 +6,7 @@ export default function ContactFormFooter() {
   const formAction = React.useRef(handleSubmit).current;
 
   return (
-    <section>
+    <section className="pt-[4rem] bg-neutral-100">
       <div className="container">
         <div className="flex">
           <div className="w-8/12"></div>
