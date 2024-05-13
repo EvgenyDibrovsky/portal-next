@@ -40,9 +40,9 @@ module.exports = {
         darkBgFooter: "#1f1f1f",
         darkBgFooterMini: "#111111",
       },
-      backgroundImage: {
-        "hero-filter": "url('/Images/bg/bg-filter.jpg')",
-      },
+      // backgroundImage: {
+      //   "hero-filter": "url('/Images/bg/bg-filter.jpg')",
+      // },
       fontSize: {
         heroTitle: ["32px", "normal"],
         titleH1: ["24px", "normal"],

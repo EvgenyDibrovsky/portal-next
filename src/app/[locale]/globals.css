@@ -38,4 +38,7 @@
   .swiper-blog .swiper-pagination-bullet-active {
     @apply bg-sky-600;
   }
+  .hero-search select option {
+    @apply text-[1.4rem];
+  }
 }

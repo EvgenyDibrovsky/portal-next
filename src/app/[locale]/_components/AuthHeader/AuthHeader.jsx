@@ -31,7 +31,7 @@ export default function AuthHeader() {
         <FaRegCircleUser className="duration-300 hover:text-sky-600" />
       </div>
       {isOpen && (
-        <ul className="absolute top-8 right-0 bg-white dark:bg-slate-900 shadow-lg">
+        <ul className="absolute top-8 right-0 bg-white dark:bg-slate-900 shadow-md">
           <li>
             <Link href="/register" className="block p-2 duration-300 hover:bg-sky-400  hover:text-white">
               Регистрация
