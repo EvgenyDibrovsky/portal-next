@@ -6,7 +6,7 @@ const AccordionItem = ({ id, isOpen, toggleItem, title, children }) => {
     <div className="accordion-item">
       <h2 className="accordion-header">
         <button
-          className="accordion-button flex items-center justify-between w-full p-5 font-medium text-black border border-b-0 bg-white border-gray-200 focus:ring-0 dark:border-gray-700 duration-300 hover:bg-neutral-200 gap-3"
+          className="accordion-button flex items-center justify-between w-full p-5 font-medium text-black border border-b-0 bg-white focus:ring-0 duration-300 hover:bg-sky-100"
           onClick={toggleItem}
           aria-expanded={isOpen}
         >
@@ -16,7 +16,7 @@ const AccordionItem = ({ id, isOpen, toggleItem, title, children }) => {
           </svg>
         </button>
       </h2>
-      {isOpen && <div className="accordion-collapse bg-white  p-5">{children}</div>}
+      {isOpen && <div className="accordion-collapse border-x bg-white p-5">{children}</div>}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import CardsBlogList from "../Blog/Cards/CardsBlog/CardsBlogList";
+import CardsBlogList from "../Blog/Cards/GridCardsBlog/CardsBlogList";
 import { Link } from "../../../../navigation";
 import { BsArrowRight } from "react-icons/bs";
 

@@ -19,7 +19,12 @@ const AccordionFooter = () => {
         <AccordionItem id="item4" title="What are the differences between Flowbite and Tailwind UI?">
           <p>The main difference is that Flowbite is open source and Tailwind UI is a paid product.</p>
         </AccordionItem>
+        <AccordionItem id="item4" title="What are the differences between Flowbite and Tailwind UI?">
+          <p>The main difference is that Flowbite is open source and Tailwind UI is a paid product.</p>
+        </AccordionItem>
         <AccordionItem id="item5" title="Is there a Figma file available?">
+          <p>The main difference is that Flowbite is open source and Tailwind UI is a paid product.</p>
+          <p>The main difference is that Flowbite is open source and Tailwind UI is a paid product.</p>
           <p>The main difference is that Flowbite is open source and Tailwind UI is a paid product.</p>
         </AccordionItem>
       </Accordion>

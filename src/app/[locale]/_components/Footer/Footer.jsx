@@ -1,6 +1,7 @@
 // import MenuFooter from "./MenuFooter";
 import Logo from "../Logo/LogoFooter";
 import LinksFooter from "./LinksFooter";
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 const Footer = () => {
   return (
     <footer className="w-full border-t border-sky-600 z-50 ">
@@ -28,6 +29,10 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      {/* <button className="flex items-center justify-center fixed bottom-[5rem] right-[1.25rem] z-20 w-[3rem] h-[3rem] bg-sky-600 text-[2rem] text-white font-bold border border-transparent duration-300 hover:border-sky-600 hover:text-sky-600 hover:bg-transparent">
+        <BsChevronUp />
+      </button> */}
+      <ScrollToTopButton />
     </footer>
   );
 };

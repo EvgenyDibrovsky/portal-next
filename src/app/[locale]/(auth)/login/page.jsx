@@ -67,7 +67,7 @@ function Login() {
               />
             </div>
             <button type="submit" className=" dark:text-white my-4 mx-auto block transition-all duration-200 hover:underline">
-              <Button>Login</Button>
+              <button>Login</button>
             </button>
           </form>
         </div>

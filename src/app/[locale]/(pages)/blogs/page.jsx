@@ -1,7 +1,7 @@
 import Titles from "../../_components/PageSettings/Titles";
 import { useTranslations } from "next-intl";
 import BlogSwiper from "../../_components/Blog/BlogSwiper/BlogSwiper";
-import CardsBlogListItem from "../../_components/Blog/Cards/CardsBlog/CardsBlogListItem";
+import CardsBlogListItem from "../../_components/Blog/Cards/GridCardsBlog/CardsBlogListItem";
 import BlogSidebar from "../../_components/Sidebar/BlogSidebar/BlogSidebar";
 import Pagination from "../../_components/Pagination/Pagination";
 export default function Blogs() {

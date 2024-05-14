@@ -11,7 +11,7 @@ import HomePageBussinesList from "./_components/Bussines/HomePageBussinesList/Ho
 import HomePageStudyList from "./_components/Study/HomePageStudyList/HomePageStudyList";
 import ContactFormFooter from "./_components/ContactForms/ContactFormFooter/ContactFormFooter";
 import BlogSection from "./_components/Sections/BlogSection";
-
+import Bloggers from "./_components/Bloggers/Bloggers";
 export default function Home() {
   // const t = useTranslations();
   return (
@@ -26,6 +26,7 @@ export default function Home() {
 
       <HomePageStudyList />
       <BlogSection />
+      <Bloggers />
       <Horizontal />
       <ContactFormFooter />
     </>
