@@ -43,6 +43,7 @@ module.exports = {
       backgroundImage: {
         "arrow-select": "url('/images/arrow-select.svg')",
         hero: "url('/images/bg-hero.jpg')",
+        bgCheck: "url('/images/check.svg')",
       },
       fontSize: {
         heroTitle: ["32px", "normal"],

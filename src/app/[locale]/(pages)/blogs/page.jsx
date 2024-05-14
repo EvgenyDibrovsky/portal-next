@@ -2,7 +2,7 @@ import Titles from "../../_components/PageSettings/Titles";
 import { useTranslations } from "next-intl";
 import BlogSwiper from "../../_components/Blog/BlogSwiper/BlogSwiper";
 import CardsBlogPopularList from "../../_components/Blog/Cards/CardsBlogPopular/CardsBlogPopulatList";
-
+import BlogSidebar from "../../_components/Sidebar/BlogSidebar/BlogSidebar";
 export default function Blogs() {
   const t = useTranslations("pages.about");
 
@@ -26,7 +26,9 @@ export default function Blogs() {
             </h4>
             <CardsBlogPopularList />
           </div>
-          <div className="w-3/12">sidebar</div>
+          <div className="w-3/12">
+            <BlogSidebar />
+          </div>
         </div>
       </div>
     </section>

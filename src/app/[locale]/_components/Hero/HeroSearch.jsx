@@ -12,7 +12,7 @@ export default function HeroSearch() {
 
   return (
     <div className="container">
-      <div className="hero-search flex gap-2 bg-white/50 p-[0.5rem] w-full shadow-md focus:outline-0">
+      <div className="hero-search flex gap-2 bg-white/50 p-[0.5rem] w-full shadow-md focus:outline-0 backdrop-blur-md">
         <input type="text" placeholder="Поиск..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="py-[1rem] px-[1rem] w-full focus:outline-0" />
         <select
           value={country}
