@@ -11,7 +11,7 @@ export default function HeroSwiper() {
   return (
     <Swiper modules={[Navigation, Autoplay]} spaceBetween={50} slidesPerView={1} navigation autoplay={{ delay: 50000 }}>
       <SwiperSlide className="swiper-slide ">
-        <div className="flex w-full h-[calc(100dvh-3.5rem)]">
+        <div className="flex w-full h-[calc(100dvh-4rem)]">
           <div className="w-5/12 flex flex-col items-center justify-center">
             <h1 className="mb-11 text-center font-medium">Nowoczesna aranżacja Twojego ogrodu</h1>
             <p className="w-10/12 text-left text-textBase">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji.</p>
@@ -22,7 +22,7 @@ export default function HeroSwiper() {
         </div>
       </SwiperSlide>
       <SwiperSlide className="swiper-slide ">
-        <div className="flex w-full h-[calc(100dvh-3.5rem)]">
+        <div className="flex w-full h-[calc(100dvh-4rem)]">
           <div className="w-5/12 flex flex-col items-center justify-center">
             <h1 className="mb-11 text-center font-medium">Nowoczesna aranżacja Twojego ogrodu</h1>
             <p className="w-10/12 text-left text-textBase">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji.</p>
@@ -33,7 +33,7 @@ export default function HeroSwiper() {
         </div>
       </SwiperSlide>
       <SwiperSlide className="swiper-slide ">
-        <div className="flex w-full h-[calc(100dvh-3.5rem)]">
+        <div className="flex w-full h-[calc(100dvh-4rem)]">
           <div className="w-5/12 flex flex-col items-center justify-center">
             <h1 className="mb-11 text-center font-medium">Nowoczesna aranżacja Twojego ogrodu</h1>
             <p className="w-10/12 text-left text-textBase">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji.</p>

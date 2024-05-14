@@ -1,4 +1,4 @@
-export default function AdsBlock() {
+export default function Horizontal() {
   return (
     <section className="py-[5rem]">
       <div className="flex justify-center items-center">

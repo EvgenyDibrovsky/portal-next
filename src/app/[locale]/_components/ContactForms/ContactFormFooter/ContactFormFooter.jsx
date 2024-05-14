@@ -2,14 +2,17 @@
 
 import React from "react";
 import { handleSubmit } from "./actions";
+import AccordionFooter from "../../Accordion/AccordionFooter";
 export default function ContactFormFooter() {
   const formAction = React.useRef(handleSubmit).current;
 
   return (
     <section className="pt-[4rem] bg-neutral-100">
       <div className="container">
-        <div className="flex">
-          <div className="w-8/12"></div>
+        <div className="flex gap-[2rem]">
+          <div className="w-8/12">
+            <AccordionFooter />
+          </div>
           <div className="w-4/12 -mb-20 border bg-white border-sky-600 p-5">
             <h3 className="text-center text-black font-medium text-[1.4rem] mb-2">Обратная связь</h3>
             <form action={formAction} method="post" className="flex flex-col gap-4">

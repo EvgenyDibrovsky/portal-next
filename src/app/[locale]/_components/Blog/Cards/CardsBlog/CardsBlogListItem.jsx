@@ -3,7 +3,7 @@ import { Link } from "../../../../../../navigation";
 import Image from "next/image";
 import { BsEyeFill, BsFillHeartFill, BsWechat } from "react-icons/bs";
 
-export default function HomePageCardsBlogListItem() {
+export default function CardsBlogListItem() {
   return (
     <li className="shadow-md bg-white dark:shadow-white duration-300 hover:shadow-sky-600 dark:hover:shadow-sky-500 group">
       <div className="relative w-full h-[20rem] bg-neutral-200 overflow-hidden">

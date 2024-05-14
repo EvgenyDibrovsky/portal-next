@@ -55,6 +55,35 @@
   input[type="checkbox"]:checked {
     @apply border-sky-500 bg-white bg-bgCheck bg-no-repeat bg-center;
   }
-
   /* Сheckbox */
+}
+/* styles.css */
+.footer-tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-tab-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: lightgray;
+}
+
+.footer-tab-item.active {
+  background-color: darkgray;
+  color: white;
+}
+
+.tab-content {
+  margin-top: 20px;
+  border: 1px solid gray;
+  padding: 20px;
 }

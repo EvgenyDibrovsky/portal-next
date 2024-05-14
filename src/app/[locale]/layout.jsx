@@ -21,7 +21,7 @@ export default function LocaleLayout({ children, params }) {
       {/* <ThemeProvider> */}
       <body className={`${montserrat.className} bg-white dark:bg-slate-900 text-black dark:text-white`}>
         <Header />
-        <main className="pt-[3.5rem]">{children}</main>
+        <main className="pt-[4rem]">{children}</main>
         <Footer />
       </body>
       {/* </ThemeProvider> */}
