@@ -13,10 +13,9 @@ export default function ContactFormFooter() {
           <div className="w-8/12">
             <AccordionFooter />
           </div>
-
-          <div className="w-4/12 -mb-[10rem] border bg-white border-sky-600 p-5 flex flex-col justify-around">
+          <div className="relative z-10 w-4/12 -mb-[10rem] border bg-white border-sky-600 p-5 flex flex-col justify-around">
             <h3 className="text-center text-black font-medium text-[1.4rem] mb-2">Обратная связь</h3>
-            <form action={formAction} method="post" className="flex flex-col gap-4">
+            <form action={formAction} method="post" className="flex flex-col gap-4 bg-white">
               <label htmlFor="name"></label>
               <input type="text" id="name" placeholder="Имя:" name="name" required className="border border-neutral-200 focus:border-sky-600 py-[1rem] px-[1.5rem] w-full focus:outline-0" />
 
