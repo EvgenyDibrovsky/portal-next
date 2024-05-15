@@ -33,9 +33,9 @@ export default function HomePageAbout() {
                 <li className="">Позиция 5</li>
                 <li className="">Позиция 6</li>
               </ul>
-              <Link href="/about" className="inline-flex mt-[1rem] ml-auto items-center gap-4 group">
+              <Link href="/about" className="w-full duration-300 flex justify-end text-sky-600 text-[1.1rem] items-center gap-4 group">
                 Больше о нас
-                <BsArrowRight className="duration-300 group-hover:translate-x-1 group-hover:text-sky-500 dark:group-hover:text-sky-400" />
+                <BsArrowRight className="text-[1.1rem] duration-300 group-hover:translate-x-1" />
               </Link>
             </div>
           </div>

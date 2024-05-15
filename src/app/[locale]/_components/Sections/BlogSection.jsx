@@ -15,12 +15,9 @@ export default function BlogSection() {
           </div>
           <CardsBlogList />
           <div className="flex justify-center mt-10">
-            <Link
-              href="/blogs"
-              className=" border border-sky-600  duration-300 hover:bg-sky-600 py-[1rem] px-[2rem] flex justify-center text-sky-600 hover:text-white text-[1.3rem] items-center gap-8 hover:shadow-md group"
-            >
+            <Link href="/blogs" className="w-full duration-300 flex justify-end text-sky-600 text-[1.1rem] items-center gap-4 group">
               Смотреть все посты
-              <BsArrowRight className="text-[1.4rem] duration-300 group-hover:translate-x-1 group-hover:text-white" />
+              <BsArrowRight className="text-[1.1rem] duration-300 group-hover:translate-x-1" />
             </Link>
           </div>
         </div>

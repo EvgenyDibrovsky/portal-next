@@ -17,9 +17,9 @@ export default function Bloggers() {
                   <h3 className="text-[1.2rem]">Предложения и сотрудничество</h3>
                 </div>
               </div>
-              <Link href="/study" className="w-full  duration-300 flex text-sky-600 text-[1.3rem] items-center gap-4 group">
+              <Link href="/study" className="w-full  duration-300 flex text-sky-600 text-[1.1rem] items-center gap-4 group">
                 Все блогеры
-                <BsArrowRight className="text-[1.4rem] duration-300 group-hover:translate-x-1 " />
+                <BsArrowRight className="text-[1.1rem] duration-300 group-hover:translate-x-1 " />
               </Link>
             </div>
           </div>

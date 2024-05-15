@@ -24,12 +24,9 @@ export default function HomePageStudyList() {
                 </div>
               </div>
 
-              <Link
-                href="/study"
-                className="w-full border border-sky-600  duration-300 hover:bg-sky-600 p-[1rem] flex justify-center text-sky-600 hover:text-white text-[1.3rem] items-center gap-8 hover:shadow-md group"
-              >
+              <Link href="/study" className="w-full duration-300 flex justify-start text-sky-600 text-[1.1rem] items-center gap-4 group">
                 Смотреть все предложения
-                <BsArrowRight className="text-[1.4rem] duration-300 group-hover:translate-x-1 group-hover:text-white" />
+                <BsArrowRight className="text-[1.1rem] duration-300 group-hover:translate-x-1" />
               </Link>
             </div>
           </div>
