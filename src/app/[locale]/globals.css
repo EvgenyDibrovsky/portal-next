@@ -20,17 +20,28 @@
   }
 }
 @layer components {
-  /* .swiper-blog .swiper-button-prev::after,
-  .swiper-blog .swiper-button-next::after {
-    @apply text-[1.2rem];
+  .swiper-blog .swiper-button-prev,
+  .swiper-blog .swiper-button-next {
+    @apply bg-sky-600 w-[2.5rem] h-[2.5rem] duration-300  hover:scale-90;
   }
 
+  .swiper-blog .swiper-button-disabled {
+    @apply scale-90;
+  }
+
+  .swiper-blog .swiper-button-prev::after,
+  .swiper-blog .swiper-button-next::after {
+    @apply text-[1.2rem] text-white;
+  }
+  .swiper-blog .swiper-pagination-bullets.swiper-pagination-horizontal {
+    @apply bottom-[3px];
+  }
   .swiper-blog .swiper-pagination-bullet {
-    @apply h-5 w-5 duration-300 hover:bg-sky-500;
+    @apply h-2 w-2 duration-300 hover:bg-sky-600;
   }
   .swiper-blog .swiper-pagination-bullet-active {
     @apply bg-sky-600;
-  } */
+  }
 
   .hero-search select option {
     @apply text-[1.2rem];
