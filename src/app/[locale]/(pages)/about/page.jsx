@@ -43,47 +43,63 @@ export default function About() {
             </div>
           </div>
         </div>
-        <ul className="grid grid-cols-8 py-[4rem]">
-          <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
-            <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
-            Работа
-          </li>
+        <div className="py-[4rem] flex gap-[2rem] ">
+          <div className="w-4/12">
+            <div className="h-full flex flex-col justify-center">
+              <div className="flex-col justify-center">
+                <h2 className="text-black font-medium text-[1.6rem] relative pb-2 after:absolute after:bottom-0 after:left-0 after:content-[''] after:block after:w-[4rem] after:h-[2px] after:bg-gradient-to-r after:from-sky-600 from-10% after:via-sky-500 via-30% after:to-sky-300 to-80%">
+                  Миссиия
+                </h2>
+                <h3 className="text-[1.2rem]  relative pb-2">Процесс разработки</h3>
+              </div>
+            </div>
+          </div>
+          <div className="w-8/12">
+            <ul className=" grid grid-cols-4 gap-x-[1.5rem] gap-y-[0.5rem]">
+              <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
+                <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
+                Работа
+              </li>
 
-          <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
-            <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
-            Недвижимость
-          </li>
+              <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
+                <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
+                Недвижимость
+              </li>
 
-          <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
-            <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
-            Финансы
-          </li>
+              <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
+                <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
+                Финансы
+              </li>
 
-          <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
-            <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
-            Право
-          </li>
+              <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
+                <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
+                Право
+              </li>
 
-          <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
-            <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
-            Бизнес
-          </li>
+              <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
+                <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
+                Бизнес
+              </li>
 
-          <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
-            <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
-            Образование
-          </li>
+              <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
+                <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
+                Образование
+              </li>
 
-          <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
-            <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
-            Блоги
-          </li>
+              <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-neutral-300">
+                <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 p-4 rounded-full" />
+                Новости
+              </li>
 
-          <li className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-sky-600">
-            <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 border-sky-600 p-4 rounded-full" />
-            Новости
-          </li>
-        </ul>
+              <li>
+                <Link href="/blogs" className="flex justify-center items-center flex-col py-[2rem] px-[1rem] text-sky-600 group">
+                  <BsBox className="mx-auto w-[4rem] h-[4rem] mb-4 border-2 border-sky-600 p-4 rounded-full duration-300 group-hover:scale-105" />
+                  Блоги
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   );
