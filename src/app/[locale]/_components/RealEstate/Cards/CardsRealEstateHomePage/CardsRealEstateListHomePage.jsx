@@ -1,8 +1,8 @@
 // import Image from "next/image";
 import { Link } from "../../../../../../navigation";
 import { BsArrowRight } from "react-icons/bs";
-import RealEstateItem from "./HomePageCardsRealEstateListItem";
-export default function HomePageCardsRealEstateList() {
+import RealEstateItem from "./CardsRealEstateListItemHomePage";
+export default function CardsRealEstateListHomePage() {
   return (
     <section className="py-[4rem]">
       <div className="container">

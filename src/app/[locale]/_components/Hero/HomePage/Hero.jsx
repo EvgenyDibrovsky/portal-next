@@ -1,8 +1,8 @@
 "use client";
 
 // import Image from "next/image";
-import Category from "../MainCategory/MainCategoryList";
-import HeroSearch from "./HeroSearch";
+import Category from "../../MainCategory/HomePage/MainCategoryList";
+import HeroSearch from "../../Hero/HomePage/HeroSearch";
 
 export default function Hero() {
   return (

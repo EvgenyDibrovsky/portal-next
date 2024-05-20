@@ -1,4 +1,4 @@
-import Titles from "../../_components/PageSettings/Titles";
+import Titles from "../../_components/PageSettings/TitlePage/Titles";
 import Image from "next/image";
 import { Link } from "../../../../navigation";
 import { BsBox } from "react-icons/bs";

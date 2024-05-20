@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { Link } from "../../../../navigation";
+import { Link } from "../../../../../navigation";
 
 const MainMenu = () => {
   const pathname = usePathname();

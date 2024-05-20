@@ -1,4 +1,4 @@
-import Titles from "../../_components/PageSettings/Titles";
+import Titles from "../../_components/PageSettings/TitlePage/Titles";
 import { useTranslations } from "next-intl";
 import BlogSwiper from "../../_components/Blog/BlogSwiper/BlogSwiper";
 import CardsBlogListItem from "../../_components/Blog/Cards/GridCardsBlog/CardsBlogListItem";

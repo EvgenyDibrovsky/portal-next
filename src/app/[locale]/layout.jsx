@@ -1,7 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Header from "./_components/Header/Header";
-import Footer from "./_components/Footer/Footer";
+import Header from "./_components/Header/SectionHeader/HeaderSection";
+import Footer from "./_components/Footer/SectionFooter/SectionFooter";
 // import { ThemeProvider } from "@material-tailwind/react";
 const montserrat = Montserrat({
   display: "swap",

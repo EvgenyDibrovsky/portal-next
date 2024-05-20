@@ -1,4 +1,4 @@
-import Titles from "../../_components/PageSettings/Titles";
+import Titles from "../../_components/PageSettings/TitlePage/Titles";
 
 export default function Catalog() {
   return (

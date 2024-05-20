@@ -1,4 +1,4 @@
-import Titles from "../../_components/PageSettings/Titles";
+import Titles from "../../_components/PageSettings/TitlePage/Titles";
 // import { useTranslations } from "next-intl";
 
 export default function Finance() {

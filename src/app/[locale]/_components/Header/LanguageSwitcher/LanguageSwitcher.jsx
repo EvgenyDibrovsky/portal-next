@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter, usePathname } from "../../../../navigation";
+import { useRouter, usePathname } from "../../../../../navigation";
 import { useTranslations } from "next-intl";
 import { IoLanguageOutline } from "react-icons/io5";
 

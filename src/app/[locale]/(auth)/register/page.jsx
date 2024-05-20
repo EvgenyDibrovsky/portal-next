@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { signIn } from "next-auth/react";
-import Titles from "../../_components/PageSettings/Titles";
+import Titles from "../../_components/PageSettings/TitlePage/Titles";
 
 function Register() {
   const [username, setUsername] = useState("");

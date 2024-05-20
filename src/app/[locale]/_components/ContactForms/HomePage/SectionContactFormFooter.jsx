@@ -2,7 +2,7 @@
 
 import React from "react";
 import { handleSubmit } from "./actions";
-import AccordionFooter from "../../Accordion/AccordionFooter";
+import AccordionFooter from "../../Accordion/HomePage/AccordionFooter";
 import ContactFormHomePage from "./ContactFormHomePage";
 export default function ContactFormFooter() {
   const formAction = React.useRef(handleSubmit).current;

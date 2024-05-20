@@ -1,5 +1,5 @@
-import CardsBlogList from "../Blog/Cards/GridCardsBlog/CardsBlogList";
-import { Link } from "../../../../navigation";
+import CardsBlogList from "../Cards/GridCardsBlog/CardsBlogList";
+import { Link } from "../../../../../navigation";
 import { BsArrowRight } from "react-icons/bs";
 
 export default function BlogSection() {

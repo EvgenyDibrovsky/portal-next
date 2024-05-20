@@ -1,5 +1,5 @@
 // import { useTranslations } from "next-intl";
-import Titles from "../../_components/PageSettings/Titles";
+import Titles from "../../_components/PageSettings/TitlePage/Titles";
 export default function Work() {
   // const t = useTranslations("pages.about");
 

@@ -1,6 +1,6 @@
 // import MenuFooter from "./MenuFooter";
-import Logo from "../Logo/LogoFooter";
-import LinksFooter from "./LinksFooter";
+import Logo from "../LogoFooter/LogoFooter";
+import LinksFooter from "../LinksFooter/LinksFooter";
 import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 const Footer = () => {
   return (

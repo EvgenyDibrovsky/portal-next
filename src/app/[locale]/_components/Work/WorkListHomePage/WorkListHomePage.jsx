@@ -1,8 +1,8 @@
 // import Image from "next/image";
 import { Link } from "../../../../../navigation";
 import { BsArrowRight } from "react-icons/bs";
-import WorkListItem from "./HomePageWorkListItem";
-export default function HomePageWorkList() {
+import WorkListItemHomePage from "./WorkListItemHomePage";
+export default function WorkListHomePage() {
   return (
     <section className="py-[4rem]">
       <div className="container">
@@ -34,12 +34,12 @@ export default function HomePageWorkList() {
           </div>
           <div className="w-8/12">
             <ul className="grid grid-cols-3 gap-x-[1.5rem] gap-y-[2rem]">
-              <WorkListItem />
-              <WorkListItem />
-              <WorkListItem />
-              <WorkListItem />
-              <WorkListItem />
-              <WorkListItem />
+              <WorkListItemHomePage />
+              <WorkListItemHomePage />
+              <WorkListItemHomePage />
+              <WorkListItemHomePage />
+              <WorkListItemHomePage />
+              <WorkListItemHomePage />
             </ul>
           </div>
         </div>

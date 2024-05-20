@@ -1,16 +1,17 @@
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "../../../../../navigation";
-import HomePageStudyListItem from "./HomePageStudyListItem";
-export default function HomePageStudyList() {
+import StudyListItemHomePage from "./StudyListItemHomePage";
+
+export default function StudyListHomePage() {
   return (
     <section className="py-[4rem] bg-neutral-100">
       <div className="container">
         <div className="flex gap-[2rem]">
           <div className="w-8/12">
             <ul className="grid grid-cols-3 gap-x-[1.5rem] gap-y-[0.5rem]">
-              <HomePageStudyListItem />
-              <HomePageStudyListItem />
-              <HomePageStudyListItem />
+              <StudyListItemHomePage />
+              <StudyListItemHomePage />
+              <StudyListItemHomePage />
             </ul>
           </div>
           <div className="w-4/12">

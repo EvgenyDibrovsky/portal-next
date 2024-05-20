@@ -1,4 +1,4 @@
-import Titles from "../../_components/PageSettings/Titles";
+import Titles from "../../_components/PageSettings/TitlePage/Titles";
 import ContactFormContactPage from "../../_components/ContactForms/ContactPage/ContactFormContactPage";
 export default function Contacts() {
   return (

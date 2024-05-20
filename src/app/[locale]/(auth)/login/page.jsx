@@ -1,21 +1,8 @@
 "use client";
 
-// import Titles from "../_components/PageSettings/Titles";
-// export default function Login() {
-//   return (
-//     <section className="h-[100dvh] py-[2.5rem]">
-//       <div className="container">
-//         {/* <Titles title={t("title")} subTitle={t("sub_title")} /> */}
-//         <Titles title="Авторизация" subTitle="Подзаголовок" />
-//       </div>
-//     </section>
-//   );
-// }
-// src/app/[locale]/pages/login.jsx
-
 import { useState } from "react";
 import { signIn } from "next-auth/react";
-import Titles from "../../_components/PageSettings/Titles";
+import Titles from "../../_components/PageSettings/TitlePage/Titles";
 function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");

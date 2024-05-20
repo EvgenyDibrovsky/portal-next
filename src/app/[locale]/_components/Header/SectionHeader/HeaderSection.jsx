@@ -1,8 +1,8 @@
-import Logo from "../Logo/LogoHeader";
-import MainMenu from "../MainMenu/MainMenu";
+import Logo from "../LogoHeader/LogoHeader";
+import MainMenu from "../MainMenuHeader/MainMenu";
 import ToggleTheme from "../ToggleTheme/ToggleTheme";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
-import CountrySwitcher from "../CountrySwitcher/CountrySwitcher";
+import CountrySwitcher from "../CountrySwitcherHeader/CountrySwitcher";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import AuthHeader from "../AuthHeader/AuthHeader";
 const MainHeader = () => {

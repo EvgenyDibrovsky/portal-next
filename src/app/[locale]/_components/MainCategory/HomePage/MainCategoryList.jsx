@@ -1,7 +1,7 @@
 "use client";
 
 import { BsBox } from "react-icons/bs";
-import { Link } from "../../../../navigation";
+import { Link } from "../../.././../../navigation";
 
 export default function Category() {
   return (
