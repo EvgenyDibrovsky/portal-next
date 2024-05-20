@@ -9,7 +9,7 @@ import HomePageCardsRealEstateList from "./_components/RealEstate/Cards/HomePage
 import HomePageAbout from "./_components/About/HomePageAbout";
 import HomePageBussinesList from "./_components/Bussines/HomePageBussinesList/HomePageBussinesList";
 import HomePageStudyList from "./_components/Study/HomePageStudyList/HomePageStudyList";
-import ContactFormFooter from "./_components/ContactForms/ContactFormFooter/ContactFormFooter";
+import SectionContactFormFooter from "./_components/ContactForms/HomePage/SectionContactFormFooter";
 import BlogSection from "./_components/Sections/BlogSection";
 import Bloggers from "./_components/Bloggers/Bloggers";
 export default function Home() {
@@ -23,12 +23,11 @@ export default function Home() {
       <HomePageWorkList />
       <HomePageBussinesList />
       <HomePageCardsRealEstateList />
-
       <HomePageStudyList />
       <BlogSection />
       <Bloggers />
       <Horizontal />
-      <ContactFormFooter />
+      <SectionContactFormFooter />
     </>
   );
 }

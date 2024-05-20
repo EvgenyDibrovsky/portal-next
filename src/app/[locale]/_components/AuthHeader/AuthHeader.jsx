@@ -8,6 +8,7 @@ export default function AuthHeader() {
           Вход
         </Link>
       </li>
+      <span className="text-sky-600">|</span>
       <li>
         <Link href="/register" className="duration-300 text-black hover:text-sky-400">
           Регистрация

@@ -1,18 +1,5 @@
 "use client";
 
-// import Titles from "../_components/PageSettings/Titles";
-// export default function Register() {
-//   return (
-//     <section className="h-[100dvh] py-[2.5rem]">
-//       <div className="container">
-//         {/* <Titles title={t("title")} subTitle={t("sub_title")} /> */}
-//         <Titles title="Регистрация " subTitle="Подзаголовок" />
-//       </div>
-//     </section>
-//   );
-// }
-// src/app/[locale]/pages/register.jsx
-// src/app/[locale]/register/page.jsx
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 import Titles from "../../_components/PageSettings/Titles";
@@ -32,9 +19,9 @@ function Register() {
       });
       const data = await result.json();
       if (data.error) {
-        alert(data.message); // Вывод сообщения об ошибке
+        alert(data.message);
       } else {
-        await signIn("credentials", { username, password }); // Автоматический вход после регистрации
+        await signIn("credentials", { username, password });
       }
     } catch (error) {
       console.error("Registration failed:", error);
