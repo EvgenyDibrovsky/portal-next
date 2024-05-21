@@ -2,7 +2,7 @@ import Titles from "../../_components/PageSettings/TitlePage/Titles";
 import ContactFormContactPage from "../../_components/ContactForms/ContactPage/ContactFormContactPage";
 export default function Contacts() {
   return (
-    <section className="h-[100vh] py-10">
+    <section className="min-h-[calc(100dvh-14rem)] py-[2.5rem]">
       <div className="container mx-auto">
         <Titles title="Контакты" subTitle="Подзаголовок" />
         <div className="flex justify-center gap-4">

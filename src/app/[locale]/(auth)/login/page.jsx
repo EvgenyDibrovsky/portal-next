@@ -24,39 +24,41 @@ function Login() {
   };
 
   return (
-    <section className="h-[100dvh] py-[2.5rem]">
+    <section className="min-h-[calc(100dvh-14rem)] py-[2.5rem]">
       <div className="container">
         <Titles title="Авторизация" subTitle="Подзаголовок" />
-        <div className="w-4/12 mx-auto">
-          <form onSubmit={handleSubmit} className="form">
-            <div className="mb-5">
-              <label htmlFor="username">Username</label>
-              <input
-                type="text"
-                id="username"
-                placeholder="Username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                required
-                className="w-full h-10 bg-white dark:bg-black  border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2"
-              />
-            </div>
-            <div className="mb-5">
-              <label htmlFor="password">Password</label>
-              <input
-                type="password"
-                id="password"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-                className="w-full h-10 bg-white dark:bg-black  border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2"
-              />
-            </div>
-            <button type="submit" className=" dark:text-white my-4 mx-auto block transition-all duration-200 hover:underline">
-              <button>Login</button>
-            </button>
-          </form>
+        <div className="flex items-center justify-center ">
+          <div className="w-4/12 mx-auto">
+            <form onSubmit={handleSubmit} className="form">
+              <div className="mb-5">
+                <label htmlFor="username">Username</label>
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="Username"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                  required
+                  className="w-full h-10 bg-white dark:bg-black  border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2"
+                />
+              </div>
+              <div className="mb-5">
+                <label htmlFor="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                  className="w-full h-10 bg-white dark:bg-black  border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2"
+                />
+              </div>
+              <button type="submit" className=" dark:text-white my-4 mx-auto block transition-all duration-200 hover:underline">
+                <button>Login</button>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
