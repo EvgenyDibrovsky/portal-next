@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./_components/Header/SectionHeader/HeaderSection";
 import Footer from "./_components/Footer/SectionFooter/SectionFooter";
 // import { ThemeProvider } from "@material-tailwind/react";
+
 const montserrat = Montserrat({
   display: "swap",
   weight: ["400", "500", "600", "700"],

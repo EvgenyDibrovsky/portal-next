@@ -1,4 +1,4 @@
-import { Link } from "../../../../navigation";
+import { Link } from "../../../../../navigation";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 
 export default function Pagination() {

@@ -3,7 +3,8 @@ import { useTranslations } from "next-intl";
 import BlogSwiper from "../../_components/Blog/BlogSwiper/BlogSwiper";
 import CardsBlogListItem from "../../_components/Blog/Cards/GridCardsBlog/CardsBlogListItem";
 import BlogSidebar from "../../_components/Sidebar/BlogSidebar/BlogSidebar";
-import Pagination from "../../_components/Pagination/Pagination";
+import Pagination from "../../_components/Blog/Pagination/Pagination";
+
 export default function Blogs() {
   const t = useTranslations("pages.about");
 

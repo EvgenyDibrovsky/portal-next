@@ -1,40 +1,13 @@
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "../../../../../navigation";
-import HomePageBussinesListItem from "./HomePageBussinesListItem";
-export default function HomePageBussinesList() {
+import HomePageBussinesCategoryListItem from "./HomePageBussinesCategoryListItem";
+export default function HomePageBussinesCategoryList() {
   return (
     <section className="py-[4rem] bg-neutral-100">
       <div className="container">
         <div className="flex gap-[2rem]">
           <div className="w-7/12">
-            <ul className="grid grid-cols-2 gap-x-[1.5rem] gap-y-[0.5rem]">
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-              <HomePageBussinesListItem />
-            </ul>
+            <HomePageBussinesCategoryListItem />
           </div>
           <div className="w-5/12">
             <div className="h-full flex flex-col justify-between">

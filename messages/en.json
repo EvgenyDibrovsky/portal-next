@@ -1,5 +1,10 @@
 {
-   "About": {
+  "NotFound": {
+    "title": "Страница не найдена",
+    "description": "К сожалению, страница, которую вы ищете, не существует.",
+    "goBackHome": "Вернуться на главную"
+  },
+  "About": {
     "title": "About us en"
   },
   "header": {

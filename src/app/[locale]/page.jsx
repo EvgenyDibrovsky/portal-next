@@ -7,7 +7,7 @@ import HomePageWorkList from "./_components/Work/WorkListHomePage/WorkListHomePa
 import Horizontal from "./_components/Ads/Horizontal";
 import HomePageCardsRealEstateList from "./_components/RealEstate/Cards/CardsRealEstateHomePage/CardsRealEstateListHomePage";
 import HomePageAbout from "./_components/About/HomePageAbout";
-import HomePageBussinesList from "./_components/Bussines/HomePageBussinesList/HomePageBussinesList";
+import HomePageBussinesList from "./_components/Bussines/HomePageBussinesCategory/HomePageBussinesCategoryList";
 import HomePageStudyList from "./_components/Study/StudyListHomePage/StudyListHomePage";
 import SectionContactFormFooter from "./_components/ContactForms/HomePage/SectionContactFormFooter";
 import BlogSection from "./_components/Blog/HomePage/BlogSectionHomePage";
