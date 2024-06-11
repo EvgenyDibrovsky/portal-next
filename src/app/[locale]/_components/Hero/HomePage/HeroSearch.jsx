@@ -19,7 +19,7 @@ export default function HeroSearch() {
         className="appearance-none py-[1rem] pl-[1rem] pr-[2.3rem]  w-full focus:outline-none cursor-pointer bg-[url('/images/arrow-select.svg')] bg-no-repeat bg-[position:right_0.5rem_center] bg-[length:1.2rem_1.2rem] bg-white"
       >
         <option value="">Выберите страну</option>
-        <option value="Russia">Россия</option>
+        <option value="Ukraine">Украина</option>
         <option value="USA">США</option>
         <option value="Poland">Польша</option>
         {/* Дополнительные страны */}

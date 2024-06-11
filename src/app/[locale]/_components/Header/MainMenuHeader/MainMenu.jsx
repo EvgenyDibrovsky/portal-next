@@ -22,9 +22,9 @@ const MainMenu = () => {
         Каталог
       </Link>
 
-      {/* <Link href="/blogs" className={linkClassName("/blog")}>
+      <Link href="/blogs" className={linkClassName("/blog")}>
         Блоги и блогеры
-      </Link> */}
+      </Link>
 
       <Link href="/contacts" className={linkClassName("/contacts")}>
         Контакты

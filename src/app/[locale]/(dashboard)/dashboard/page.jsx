@@ -1,19 +1,28 @@
-import Titles from "../../_components/PageSettings/TitlePage/Titles";
+import Title from "../../_components/PageSettings/TitlePageDashboard/TitlePageDashboard";
 
-// import { useTranslations } from "next-intl";
-
-export default function Dashboard() {
-  // const t = useTranslations("pages.about");
-
+export default function DashboardPage() {
   return (
-    <section className="py-[2.5rem]">
-      <div className="flex">
-        <div className="w-[10rem]"></div>
-      </div>
-      <div className="container">
-        <Titles title="Dashboard" />
-        <div className="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800"></div>
-      </div>
-    </section>
+    <div>
+      <Title title="Панель приборов" />
+
+      <h2 className="mb-[2rem] font-semibold">Статистика просмотров:</h2>
+      <ul className="grid grid-cols-3 gap-[1.875rem]">
+        <li className="p-[0.5rem] shadow-md">
+          <span>Профиль</span>
+          <span>:</span>
+          <span>20</span>
+        </li>
+        <li className="p-[0.5rem] shadow-md">
+          <span>Посты</span>
+          <span>:</span>
+          <span>35</span>
+        </li>
+        <li className="p-[0.5rem] shadow-md">
+          <span> Соц.сети</span>
+          <span>:</span>
+          <span>45</span>
+        </li>
+      </ul>
+    </div>
   );
 }

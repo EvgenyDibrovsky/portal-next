@@ -48,6 +48,7 @@ module.exports = {
       fontSize: {
         heroTitle: ["32px", "normal"],
         titleH1: ["24px", "normal"],
+        titleH1Dashboard: ["18px", "normal"],
         titleH2: ["20px", "normal"],
         titleH3: ["18px", "normal"],
         titleH4: ["16px", "normal"],

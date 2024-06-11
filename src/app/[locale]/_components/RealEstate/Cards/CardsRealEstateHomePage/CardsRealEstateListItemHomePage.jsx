@@ -10,7 +10,7 @@ export default function CardsRealEstateListItemHomePage() {
       <Link href="#">
         <h5 className="text-center py-6 px-3 border-b border-neutral-200">Название компании</h5>
         <div className="relative  flex items-center justify-center bg-transparent w-full h-[10rem] mb-5 ">
-          <Image src="/images/demo/demo-logo-3.png" alt="Example Image" layout="fill" className="object-contain p-5" />
+          <Image src="/images/demo/demo-logo-3.png" alt="Example Image" className="object-contain p-5" fill />
         </div>
         <div className="flex items-center gap-1 py-4 px-3 border-t border-neutral-200">
           <div className="flex">
